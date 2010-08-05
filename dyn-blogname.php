@@ -1,9 +1,9 @@
 <?php 
 /*
 Plugin Name: Dynamic Blogname
-Plugin URI: http://andrewkiselev.com/dyn-blogname/
-Description: Rotate blogname dynamicaly 
-Version: 0.5
+Plugin URI: http://andrewkiselev.com/projects/dynamic-blogname/
+Description: Change blogname dynamicaly 
+Version: 1.0
 Author: kaaquantum
 Author URI: http://andrewkiselev.com
 License: GPL2
