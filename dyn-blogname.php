@@ -15,8 +15,9 @@ License: GPL2
 function dyn_blogname_activation(){
 	// create titles.txt
 	$file = plugins_url('dyn-blogname/titles.txt');
-	$content = bloginfo('name');	
-	
+	//$content = bloginfo('name');	
+	$content = 'Blogname';		
+
 	file_put_contents($file, $content, FILE_APPEND);
 }
 
