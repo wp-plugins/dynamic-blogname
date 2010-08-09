@@ -3,7 +3,7 @@
 Plugin Name: Dynamic Blogname
 Plugin URI: http://andrewkiselev.com/projects/dynamic-blogname/
 Description: Change blogname dynamicaly 
-Version: 1.0
+Version: 1.0.2
 Author: kaaquantum
 Author URI: http://andrewkiselev.com
 License: GPL2
@@ -28,7 +28,7 @@ register_activation_hook( __FILE__, 'dynamic_blogname_activation' );
 // Return a random title read from a special file that contains a list of title to choose from.
 function random_title(){
 	
-	$lines = file(plugins_url('dynamic-blogname/titles.txt'), FILE_SKIP_EMPTY_LINES);        
+	$lines = file(dirname(__FILE__).'/titles.txt'), FILE_SKIP_EMPTY_LINES);        
 	$title = $lines[array_rand($lines)];
 	return $title;
 }

@@ -4,7 +4,7 @@ Donate link: andrewkiselev.com
 Tags: appearence, blogname, site title, title
 Requires at least: 3.0
 Tested up to: 3.0.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 The plugin allows you to change and rotate the title of your blog dynamicaly every reloading.
 
@@ -29,4 +29,7 @@ Just use a button "Add New" in Plugin section of your Wordpress blog's Control p
 
 = 1.0.1 =
 * Fixed mistake in titles.txt's location code that leads to excessive load.
+
+= 1.0.2 =
+* Corrected way getting 'titles.txt' from by http-url to by abs. filesystem path.
 
