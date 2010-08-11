@@ -24,14 +24,14 @@ Just use a button "Add New" in Plugin section of your Wordpress blog's Control p
 
 == Changelog ==
 
-= 1.0 =
-* The first stable workin' release at the Wordpress.org plugin repository.
+= 2.0 =
+* Titles' list is no longer stored in an external file. All the plugins data handled with an Option mechanism.
+* Added 'Option Page' that availible in Appearance menu.
+* Default value for blogname after activation is a current blogname.
 
 = 1.0.1 =
 * Fixed mistake in titles.txt's location code that leads to excessive load.
 
-= 1.0.1 =
-* Titles' list is no longer stored in an external file. All the plugins data handled with an Option mechanism.
-* Added 'Option Page' that availible in Appearance menu.
-* Default value for blogname after activation is a current blogname.
+= 1.0 =
+* The first stable workin' release at the Wordpress.org plugin repository.
 
