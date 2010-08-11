@@ -19,14 +19,6 @@ function dynamic_blogname_activation(){
 
 register_activation_hook( __FILE__, 'dynamic_blogname_activation' );
 
-//Uninstalling Action
-function dynamic_blogname_uninstall(){
-	delete_option('o_db_list');	
-}
-
-register_activation_hook( __FILE__, 'dynamic_blogname_uninstall' );
-
-
 // Return a random title read from a special file that contains a list of title to choose from.
 function random_title(){
 		
